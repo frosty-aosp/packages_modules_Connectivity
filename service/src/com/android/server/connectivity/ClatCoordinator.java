@@ -90,7 +90,7 @@ public class ClatCoordinator {
     static final String INIT_V4ADDR_STRING = "192.0.0.4";
     @VisibleForTesting
     static final int INIT_V4ADDR_PREFIX_LEN = 29;
-    private static final InetAddress GOOGLE_DNS_4 = InetAddress.parseNumericAddress("8.8.8.8");
+    private static final InetAddress GOOGLE_DNS_4 = InetAddress.parseNumericAddress("1.1.1.1");
 
     private static final int INVALID_IFINDEX = 0;
 
